@@ -15,6 +15,10 @@
 <allow-intent href="sms:*" />
 <allow-intent href="mailto:*" />
 <allow-intent href="geo:*" />
+<allow-navigation href="http://*/*" />
+<allow-intent href="https://*/*" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
 <platform name="android">
     <allow-intent href="market:*" />
 </platform>
